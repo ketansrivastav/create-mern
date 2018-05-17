@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "express-handlebars": "*",
     "react": "^16.2.0",
@@ -22,7 +23,8 @@
     "nodemon": "*",
     "webpack": "^4.1.1",
     "webpack-dev-middleware": "^3.0.1",
-    "webpack-hot-middleware": "^2.21.2"
+    "webpack-hot-middleware": "^2.21.2",
+    "http-proxy-middleware": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
