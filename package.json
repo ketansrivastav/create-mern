@@ -28,8 +28,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "",
-    "dev": "node ./bin/npm_scripts/start-dev.js"
+    "start": "node backend/server",
+    "dev": "node ./bin/npm_scripts/start-dev.js",
+    "deploy": "node ./bin/npm_scripts/start-prod.js"
   },
   "author": "",
   "license": "ISC"
